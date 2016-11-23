@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C0EB1181DE5E63800BB3554 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0EB1171DE5E63800BB3554 /* main.m */; };
+		2C0EB11B1DE5E63800BB3554 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0EB11A1DE5E63800BB3554 /* AppDelegate.m */; };
+		2C0EB11E1DE5E63800BB3554 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0EB11D1DE5E63800BB3554 /* ViewController.m */; };
+		2C0EB1211DE5E63800BB3554 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C0EB11F1DE5E63800BB3554 /* Main.storyboard */; };
+		2C0EB1231DE5E63800BB3554 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C0EB1221DE5E63800BB3554 /* Assets.xcassets */; };
+		2C0EB1261DE5E63800BB3554 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C0EB1241DE5E63800BB3554 /* LaunchScreen.storyboard */; };
+		2C0EB1311DE5E63800BB3554 /* CWNetworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0EB1301DE5E63800BB3554 /* CWNetworkTests.m */; };
+		2C0EB13C1DE5E63800BB3554 /* CWNetworkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0EB13B1DE5E63800BB3554 /* CWNetworkUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C0EB12D1DE5E63800BB3554 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C0EB10B1DE5E63700BB3554 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C0EB1121DE5E63700BB3554;
+			remoteInfo = CWNetwork;
+		};
+		2C0EB1381DE5E63800BB3554 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C0EB10B1DE5E63700BB3554 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C0EB1121DE5E63700BB3554;
+			remoteInfo = CWNetwork;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C0EB1131DE5E63800BB3554 /* CWNetwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CWNetwork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C0EB1171DE5E63800BB3554 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2C0EB1191DE5E63800BB3554 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2C0EB11A1DE5E63800BB3554 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2C0EB11C1DE5E63800BB3554 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2C0EB11D1DE5E63800BB3554 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2C0EB1201DE5E63800BB3554 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2C0EB1221DE5E63800BB3554 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C0EB1251DE5E63800BB3554 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2C0EB1271DE5E63800BB3554 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C0EB12C1DE5E63800BB3554 /* CWNetworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CWNetworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C0EB1301DE5E63800BB3554 /* CWNetworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CWNetworkTests.m; sourceTree = "<group>"; };
+		2C0EB1321DE5E63800BB3554 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C0EB1371DE5E63800BB3554 /* CWNetworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CWNetworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C0EB13B1DE5E63800BB3554 /* CWNetworkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CWNetworkUITests.m; sourceTree = "<group>"; };
+		2C0EB13D1DE5E63800BB3554 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C0EB1101DE5E63700BB3554 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C0EB1291DE5E63800BB3554 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C0EB1341DE5E63800BB3554 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C0EB10A1DE5E63700BB3554 = {
+			isa = PBXGroup;
+			children = (
+				2C0EB1151DE5E63800BB3554 /* CWNetwork */,
+				2C0EB12F1DE5E63800BB3554 /* CWNetworkTests */,
+				2C0EB13A1DE5E63800BB3554 /* CWNetworkUITests */,
+				2C0EB1141DE5E63800BB3554 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C0EB1141DE5E63800BB3554 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C0EB1131DE5E63800BB3554 /* CWNetwork.app */,
+				2C0EB12C1DE5E63800BB3554 /* CWNetworkTests.xctest */,
+				2C0EB1371DE5E63800BB3554 /* CWNetworkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C0EB1151DE5E63800BB3554 /* CWNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				2C0EB1191DE5E63800BB3554 /* AppDelegate.h */,
+				2C0EB11A1DE5E63800BB3554 /* AppDelegate.m */,
+				2C0EB11C1DE5E63800BB3554 /* ViewController.h */,
+				2C0EB11D1DE5E63800BB3554 /* ViewController.m */,
+				2C0EB11F1DE5E63800BB3554 /* Main.storyboard */,
+				2C0EB1221DE5E63800BB3554 /* Assets.xcassets */,
+				2C0EB1241DE5E63800BB3554 /* LaunchScreen.storyboard */,
+				2C0EB1271DE5E63800BB3554 /* Info.plist */,
+				2C0EB1161DE5E63800BB3554 /* Supporting Files */,
+			);
+			path = CWNetwork;
+			sourceTree = "<group>";
+		};
+		2C0EB1161DE5E63800BB3554 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C0EB1171DE5E63800BB3554 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2C0EB12F1DE5E63800BB3554 /* CWNetworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				2C0EB1301DE5E63800BB3554 /* CWNetworkTests.m */,
+				2C0EB1321DE5E63800BB3554 /* Info.plist */,
+			);
+			path = CWNetworkTests;
+			sourceTree = "<group>";
+		};
+		2C0EB13A1DE5E63800BB3554 /* CWNetworkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2C0EB13B1DE5E63800BB3554 /* CWNetworkUITests.m */,
+				2C0EB13D1DE5E63800BB3554 /* Info.plist */,
+			);
+			path = CWNetworkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C0EB1121DE5E63700BB3554 /* CWNetwork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C0EB1401DE5E63800BB3554 /* Build configuration list for PBXNativeTarget "CWNetwork" */;
+			buildPhases = (
+				2C0EB10F1DE5E63700BB3554 /* Sources */,
+				2C0EB1101DE5E63700BB3554 /* Frameworks */,
+				2C0EB1111DE5E63700BB3554 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CWNetwork;
+			productName = CWNetwork;
+			productReference = 2C0EB1131DE5E63800BB3554 /* CWNetwork.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2C0EB12B1DE5E63800BB3554 /* CWNetworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C0EB1431DE5E63800BB3554 /* Build configuration list for PBXNativeTarget "CWNetworkTests" */;
+			buildPhases = (
+				2C0EB1281DE5E63800BB3554 /* Sources */,
+				2C0EB1291DE5E63800BB3554 /* Frameworks */,
+				2C0EB12A1DE5E63800BB3554 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C0EB12E1DE5E63800BB3554 /* PBXTargetDependency */,
+			);
+			name = CWNetworkTests;
+			productName = CWNetworkTests;
+			productReference = 2C0EB12C1DE5E63800BB3554 /* CWNetworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2C0EB1361DE5E63800BB3554 /* CWNetworkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C0EB1461DE5E63800BB3554 /* Build configuration list for PBXNativeTarget "CWNetworkUITests" */;
+			buildPhases = (
+				2C0EB1331DE5E63800BB3554 /* Sources */,
+				2C0EB1341DE5E63800BB3554 /* Frameworks */,
+				2C0EB1351DE5E63800BB3554 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C0EB1391DE5E63800BB3554 /* PBXTargetDependency */,
+			);
+			name = CWNetworkUITests;
+			productName = CWNetworkUITests;
+			productReference = 2C0EB1371DE5E63800BB3554 /* CWNetworkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C0EB10B1DE5E63700BB3554 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = lzb;
+				TargetAttributes = {
+					2C0EB1121DE5E63700BB3554 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 7M3742277M;
+						ProvisioningStyle = Automatic;
+					};
+					2C0EB12B1DE5E63800BB3554 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 7M3742277M;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2C0EB1121DE5E63700BB3554;
+					};
+					2C0EB1361DE5E63800BB3554 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 7M3742277M;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2C0EB1121DE5E63700BB3554;
+					};
+				};
+			};
+			buildConfigurationList = 2C0EB10E1DE5E63700BB3554 /* Build configuration list for PBXProject "CWNetwork" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C0EB10A1DE5E63700BB3554;
+			productRefGroup = 2C0EB1141DE5E63800BB3554 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C0EB1121DE5E63700BB3554 /* CWNetwork */,
+				2C0EB12B1DE5E63800BB3554 /* CWNetworkTests */,
+				2C0EB1361DE5E63800BB3554 /* CWNetworkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C0EB1111DE5E63700BB3554 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C0EB1261DE5E63800BB3554 /* LaunchScreen.storyboard in Resources */,
+				2C0EB1231DE5E63800BB3554 /* Assets.xcassets in Resources */,
+				2C0EB1211DE5E63800BB3554 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C0EB12A1DE5E63800BB3554 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C0EB1351DE5E63800BB3554 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C0EB10F1DE5E63700BB3554 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C0EB11E1DE5E63800BB3554 /* ViewController.m in Sources */,
+				2C0EB11B1DE5E63800BB3554 /* AppDelegate.m in Sources */,
+				2C0EB1181DE5E63800BB3554 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C0EB1281DE5E63800BB3554 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C0EB1311DE5E63800BB3554 /* CWNetworkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C0EB1331DE5E63800BB3554 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C0EB13C1DE5E63800BB3554 /* CWNetworkUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C0EB12E1DE5E63800BB3554 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C0EB1121DE5E63700BB3554 /* CWNetwork */;
+			targetProxy = 2C0EB12D1DE5E63800BB3554 /* PBXContainerItemProxy */;
+		};
+		2C0EB1391DE5E63800BB3554 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C0EB1121DE5E63700BB3554 /* CWNetwork */;
+			targetProxy = 2C0EB1381DE5E63800BB3554 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2C0EB11F1DE5E63800BB3554 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C0EB1201DE5E63800BB3554 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2C0EB1241DE5E63800BB3554 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C0EB1251DE5E63800BB3554 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C0EB13E1DE5E63800BB3554 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C0EB13F1DE5E63800BB3554 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C0EB1411DE5E63800BB3554 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7M3742277M;
+				INFOPLIST_FILE = CWNetwork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = li.CWNetwork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2C0EB1421DE5E63800BB3554 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7M3742277M;
+				INFOPLIST_FILE = CWNetwork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = li.CWNetwork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2C0EB1441DE5E63800BB3554 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7M3742277M;
+				INFOPLIST_FILE = CWNetworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = li.CWNetworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CWNetwork.app/CWNetwork";
+			};
+			name = Debug;
+		};
+		2C0EB1451DE5E63800BB3554 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7M3742277M;
+				INFOPLIST_FILE = CWNetworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = li.CWNetworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CWNetwork.app/CWNetwork";
+			};
+			name = Release;
+		};
+		2C0EB1471DE5E63800BB3554 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7M3742277M;
+				INFOPLIST_FILE = CWNetworkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = li.CWNetworkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CWNetwork;
+			};
+			name = Debug;
+		};
+		2C0EB1481DE5E63800BB3554 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7M3742277M;
+				INFOPLIST_FILE = CWNetworkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = li.CWNetworkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CWNetwork;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C0EB10E1DE5E63700BB3554 /* Build configuration list for PBXProject "CWNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C0EB13E1DE5E63800BB3554 /* Debug */,
+				2C0EB13F1DE5E63800BB3554 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C0EB1401DE5E63800BB3554 /* Build configuration list for PBXNativeTarget "CWNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C0EB1411DE5E63800BB3554 /* Debug */,
+				2C0EB1421DE5E63800BB3554 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2C0EB1431DE5E63800BB3554 /* Build configuration list for PBXNativeTarget "CWNetworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C0EB1441DE5E63800BB3554 /* Debug */,
+				2C0EB1451DE5E63800BB3554 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2C0EB1461DE5E63800BB3554 /* Build configuration list for PBXNativeTarget "CWNetworkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C0EB1471DE5E63800BB3554 /* Debug */,
+				2C0EB1481DE5E63800BB3554 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C0EB10B1DE5E63700BB3554 /* Project object */;
+}
