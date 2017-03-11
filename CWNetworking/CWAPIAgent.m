@@ -7,6 +7,7 @@
 //
 
 #import "CWAPIAgent.h"
+#import "AFNetworking.h"
 
 @implementation CWAPIAgent
 
