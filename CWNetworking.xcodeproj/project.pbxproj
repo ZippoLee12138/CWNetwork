@@ -16,6 +16,7 @@
 		050DB9491DE7D2C80008F7A7 /* CWNetworkingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 050DB9481DE7D2C80008F7A7 /* CWNetworkingTests.m */; };
 		050DB9541DE7D2C80008F7A7 /* CWNetworkingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 050DB9531DE7D2C80008F7A7 /* CWNetworkingUITests.m */; };
 		059876691E5ACFCA00EBEE89 /* CWAPIAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 059876681E5ACFCA00EBEE89 /* CWAPIAgent.m */; };
+		05BB8A441E77F4EF00FE3204 /* CWURLResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 05BB8A431E77F4EF00FE3204 /* CWURLResponse.m */; };
 		2A429EE299DE69FEB41BCA9D /* libPods-CWNetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 42C6450B3098ECD01BC1D9BD /* libPods-CWNetworking.a */; };
 		ADC2190CB0CB0E0E31E944D3 /* libPods-CWNetworkingUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CCA288BCBA2E4718C1E7CA7 /* libPods-CWNetworkingUITests.a */; };
 		E68A865C0F6768DB453A2400 /* libPods-CWNetworkingTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 676EE07C872567FA41132ECA /* libPods-CWNetworkingTests.a */; };
@@ -57,6 +58,8 @@
 		050DB9551DE7D2C80008F7A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		059876671E5ACFCA00EBEE89 /* CWAPIAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWAPIAgent.h; sourceTree = "<group>"; };
 		059876681E5ACFCA00EBEE89 /* CWAPIAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWAPIAgent.m; sourceTree = "<group>"; };
+		05BB8A421E77F4EF00FE3204 /* CWURLResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWURLResponse.h; sourceTree = "<group>"; };
+		05BB8A431E77F4EF00FE3204 /* CWURLResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWURLResponse.m; sourceTree = "<group>"; };
 		2CCA288BCBA2E4718C1E7CA7 /* libPods-CWNetworkingUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CWNetworkingUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		42C6450B3098ECD01BC1D9BD /* libPods-CWNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CWNetworking.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A3AD80FBBA05C9028426E53 /* Pods-CWNetworkingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CWNetworkingUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CWNetworkingUITests/Pods-CWNetworkingUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -127,6 +130,8 @@
 				050DB9351DE7D2C80008F7A7 /* ViewController.m */,
 				059876671E5ACFCA00EBEE89 /* CWAPIAgent.h */,
 				059876681E5ACFCA00EBEE89 /* CWAPIAgent.m */,
+				05BB8A421E77F4EF00FE3204 /* CWURLResponse.h */,
+				05BB8A431E77F4EF00FE3204 /* CWURLResponse.m */,
 				050DB9371DE7D2C80008F7A7 /* Main.storyboard */,
 				050DB93A1DE7D2C80008F7A7 /* Assets.xcassets */,
 				050DB93C1DE7D2C80008F7A7 /* LaunchScreen.storyboard */,
@@ -472,6 +477,7 @@
 				050DB9331DE7D2C80008F7A7 /* AppDelegate.m in Sources */,
 				059876691E5ACFCA00EBEE89 /* CWAPIAgent.m in Sources */,
 				050DB9301DE7D2C80008F7A7 /* main.m in Sources */,
+				05BB8A441E77F4EF00FE3204 /* CWURLResponse.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

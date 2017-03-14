@@ -15,7 +15,7 @@
 
 + (instancetype)sharedInstance;
 
-
+- (NSInteger)POSTwithServerAdd:(NSString*)serverAdd param:(NSDictionary*)param;
 
 
 @end
